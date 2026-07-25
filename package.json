@@ -1,0 +1,16 @@
+{
+  "name": "@simpleworkjs/app-stack",
+  "version": "1.0.0",
+  "description": "Shared app-stack helpers for the theta42 apps — unified build_info + static-module mounting.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --test"
+  },
+  "keywords": ["theta42", "build-info", "static-modules", "express"],
+  "license": "MIT",
+  "engines": { "node": ">=18.0.0" },
+  "files": ["index.js", "lib/", "README.md", "CHANGELOG.md", "LICENSE"],
+  "dependencies": {
+    "express": "^5.2.1"
+  }
+}
